@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+vertical-align: bottom;
+}
+
+.container {
+  width: 380px;
+  text-align: center;
+  margin: 24px auto 0;
+  border: 1px solid #555;
+  border-radius: 8px;
+  box-shadow: 0 0  8px #444;
+  padding: 16px;
+}
+
+.container p {
+  border: 1px solid #444;
+  border-radius: 4px;
+  padding: 12px 0;
+  font-family: 'Courier New';
+  font-size: 24px;
+}
+
+button {
+  all: unset;
+  border: 1px solid #555;
+  background: #08c;
+  border-radius: 8px;
+  width: 100%;
+  margin: 16px 0;
+  padding: 8px 0;
+  cursor: pointer;
+  color: white;
+  transition: .7s;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+button:active {
+  opacity: 0.4;
+  transform: translateY(3px);
+}
+
+fieldset {
+  all: unset;
+  text-align: left;
+  padding: 16px 8px;
+  margin: 16px 0 0;
+  border: dashed 2px #aaa;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+legend {
+  padding: 0 4px;
+  margin-left: 16px;
+}
+
+#password-length {
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}

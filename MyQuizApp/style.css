@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 320px;
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+section {
+  text-align: left;
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+ul {
+  padding: 16px 0 16px 48px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.correct {
+  color: green;
+}
+
+.correct::after {
+  content: "--正解!!";
+}
+
+.wrong {
+  color: red;
+}
+
+.wrong::after {
+  content: "--不正解...";
+}
